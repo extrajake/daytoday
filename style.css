@@ -3716,15 +3716,15 @@ textarea.form-control-lg {
 }
 
 .dropdown-menu-dark {
-  --bs-dropdown-color: #dee2e6;
+  --bs-dropdown-color: #1C1E1F;
   --bs-dropdown-bg: #343a40;
   --bs-dropdown-border-color: var(--bs-border-color-translucent);
   --bs-dropdown-box-shadow: ;
-  --bs-dropdown-link-color: #dee2e6;
-  --bs-dropdown-link-hover-color: #fff;
+  --bs-dropdown-link-color: #1C1E1F;
+  --bs-dropdown-link-hover-color: #1C1E1F;
   --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
   --bs-dropdown-link-hover-bg: rgba(255, 255, 255, 0.15);
-  --bs-dropdown-link-active-color: #fff;
+  --bs-dropdown-link-active-color: #1C1E1F;
   --bs-dropdown-link-active-bg: #0d6efd;
   --bs-dropdown-link-disabled-color: #adb5bd;
   --bs-dropdown-header-color: #adb5bd;
@@ -3907,7 +3907,7 @@ textarea.form-control-lg {
 
 .nav-pills {
   --bs-nav-pills-border-radius: var(--bs-border-radius);
-  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-color: #1C1E1F;
   --bs-nav-pills-link-active-bg: #0d6efd;
 }
 .nav-pills .nav-link {
@@ -4378,12 +4378,12 @@ textarea.form-control-lg {
 
 .navbar-dark,
 .navbar[data-bs-theme=dark] {
-  --bs-navbar-color: rgba(255, 255, 255, 0.55);
-  --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+  --bs-navbar-color: #1C1E1F;
+  --bs-navbar-hover-color: #1C1E1F;
   --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
-  --bs-navbar-active-color: #fff;
-  --bs-navbar-brand-color: #fff;
-  --bs-navbar-brand-hover-color: #fff;
+  --bs-navbar-active-color: #1C1E1F;
+  --bs-navbar-brand-color: #1C1E1F;
+  --bs-navbar-brand-hover-color: #1C1E1F;
   --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
@@ -5008,7 +5008,7 @@ textarea.form-control-lg {
 }
 
 .progress-bar-striped {
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, #1C1E1F 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: var(--bs-progress-height) var(--bs-progress-height);
 }
 
@@ -6120,7 +6120,7 @@ textarea.form-control-lg {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #fff;
+  color: #1C1E1F;
   text-align: center;
   background: none;
   border: 0;
@@ -8813,7 +8813,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: #1C1E1F !important;
 }
 
 .text-body-secondary {
@@ -13718,7 +13718,7 @@ body:not(.stretched) {
 }
 
 a {
-  color: var(--cnvs-link-color);
+  color:#fff;
 }
 a:not(.btn-link):not(.text-decoration-underline):not(.more-link) {
   text-decoration: none !important;
@@ -17257,7 +17257,8 @@ img.lazy:not([src]) {
   height: auto;
   z-index: 299;
   width: 100%;
-  background-color: var(--cnvs-header-bg);
+  /* background-color: var(--cnvs-header-bg); */
+  background-color: #1C1E1F;
   border-bottom: 1px solid var(--cnvs-header-border-color);
   transition: height 0.2s ease 0s, background-color 0.3s ease 0s;
   backface-visibility: hidden;
@@ -17384,7 +17385,7 @@ body:not(.is-expanded-menu) #header:not([data-mobile-sticky=true]) .header-wrap-
   position: fixed;
   top: 0;
   left: 0;
-  background-color: var(--cnvs-header-sticky-bg);
+  background-color: #1C1E1F;
 }
 .is-expanded-menu .sticky-header.semi-transparent {
   --cnvs-header-sticky-bg: rgba(var(--cnvs-invert-contrast-rgb),0.7);
@@ -17446,7 +17447,7 @@ body:not(.is-expanded-menu):not(.primary-menu-open) .transparent-header-responsi
   border: none;
 }
 body:not(.is-expanded-menu):not(.primary-menu-open) .semi-transparent.transparent-header-responsive {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #1C1E1F;
   z-index: 1;
 }
 
@@ -20797,7 +20798,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 -----------------------------------------------------------------*/
 #content {
   position: relative;
-  background-color: var(--cnvs-body-bg);
+  background-color: #1C1E1F;
 }
 
 .content-wrap {
