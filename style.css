@@ -17257,8 +17257,8 @@ img.lazy:not([src]) {
   height: auto;
   z-index: 299;
   width: 100%;
-  /* background-color: var(--cnvs-header-bg); */
-  background-color: #1C1E1F;
+  background-color: var(--cnvs-header-bg);
+  /* background-color: #1C1E1F; */
   border-bottom: 1px solid var(--cnvs-header-border-color);
   transition: height 0.2s ease 0s, background-color 0.3s ease 0s;
   backface-visibility: hidden;
@@ -17328,7 +17328,7 @@ body:not(.is-expanded-menu) #header:not([data-mobile-sticky=true]) .header-wrap-
   width: 100%;
 }
 .is-expanded-menu #header.transparent-header {
-  --cnvs-header-bg: transparent;
+  --cnvs-header-bg: #fff;
   border-bottom: 0;
 }
 .is-expanded-menu #header.transparent-header:not(.sticky-header) #header-wrap {
@@ -17385,7 +17385,7 @@ body:not(.is-expanded-menu) #header:not([data-mobile-sticky=true]) .header-wrap-
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #1C1E1F;
+  background-color: #fff;
 }
 .is-expanded-menu .sticky-header.semi-transparent {
   --cnvs-header-sticky-bg: rgba(var(--cnvs-invert-contrast-rgb),0.7);
@@ -17474,7 +17474,7 @@ body:not(.is-expanded-menu):not(.primary-menu-open) .semi-transparent.transparen
   display: flex;
 }
 .logo-default {
-  max-height: 40px;;
+  max-height: 140px;;
 }
 
 #logo img {
@@ -17495,7 +17495,7 @@ body:not(.is-expanded-menu):not(.primary-menu-open) .semi-transparent.transparen
 }
 .is-expanded-menu .full-header #logo {
   padding-right: 30px;
-  border-right: 1px solid var(--cnvs-header-border-color);
+  /* border-right: 1px solid var(--cnvs-header-border-color); */
 }
 .is-expanded-menu #header.transparent-header.full-header #logo {
   border-right-color: var(--cnvs-header-transparent-border-color);
@@ -20798,7 +20798,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 -----------------------------------------------------------------*/
 #content {
   position: relative;
-  background-color: #1C1E1F;
+  background-color: #fff;
 }
 
 .content-wrap {
@@ -24767,7 +24767,7 @@ td.actions {
   --cnvs-socialicon-size: 3.5rem;
 }
 .social-icon.si-small {
-  --cnvs-socialicon-size: 2rem;
+  --cnvs-socialicon-size: 3rem;
   --cnvs-socialicon-fontsize: 0.875rem;
 }
 .social-icon i {
@@ -33421,7 +33421,7 @@ img.mfp-img {
 -----------------------------------------------------------------------------------*/
 .dark {
   --cnvs-contrast-bg: #212529;
-  --cnvs-contrast-bg-offset: #343a40;
+  --cnvs-contrast-bg-offset: #1d1d1d;
   --cnvs-contrast-0: #000;
   --cnvs-contrast-100: #212529;
   --cnvs-contrast-200: #343a40;
