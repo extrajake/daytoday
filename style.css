@@ -13278,7 +13278,8 @@ textarea.form-control-lg {
   }
 }
 :root {
-  --cnvs-themecolor:	#1abc9c;
+  --cnvs-themecolor:	#D7AF48;
+  /* #D7AF48 */
   --cnvs-themecolor-rgb:	26, 188, 156;
   --bs-link-color:	var(--cnvs-themecolor);
   --bs-link-color-rgb:	var(--cnvs-themecolor-rgb);
@@ -18018,7 +18019,7 @@ body:not(.is-expanded-menu) .mobile-menu-overlay .menu-container {
 .is-expanded-menu .full-header .primary-menu .menu-container {
   padding-right: 0.5rem;
   margin-right: 0.5rem;
-  border-right: 1px solid var(--cnvs-header-border-color);
+  /* border-right: 1px solid var(--cnvs-header-border-color); */
 }
 .is-expanded-menu .transparent-header.full-header .primary-menu .menu-container {
   border-right-color: var(--cnvs-header-transparent-border-color);
@@ -28219,7 +28220,7 @@ h3.titular-title, .titular-title.h3 {
 .title-bottom-border .h6 {
   width: 100%;
   padding: 0 0 var(--cnvs-fancy-title-padding);
-  border-bottom: calc(var(--cnvs-fancy-title-border-size) * 2) solid var(--cnvs-themecolor);
+  border-bottom: calc(var(--cnvs-fancy-title-border-size) * 2) solid #D7AF48;
 }
 
 /* Sub Heading
