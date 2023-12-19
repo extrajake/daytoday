@@ -759,17 +759,27 @@ progress {
 
 @media (min-width: 576px) {
   .container-sm, .container {
+    max-width: 340px;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .container-sm, .container {
     max-width: 540px;
+    padding: 1rem;
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
+    padding:2rem;
   }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
+    padding:2rem;
   }
 }
 @media (min-width: 1200px) {
@@ -3103,20 +3113,20 @@ textarea.form-control-lg {
 }
 
 .btn-success {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #198754;
-  --bs-btn-border-color: #198754;
+  --bs-btn-color: black;
+  --bs-btn-bg: #ffc107;
+  --bs-btn-border-color: #ffc107;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #157347;
-  --bs-btn-hover-border-color: #146c43;
+  --bs-btn-hover-bg: #ffc107;
+  --bs-btn-hover-border-color: #ffc107;
   --bs-btn-focus-shadow-rgb: 60, 153, 110;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #146c43;
-  --bs-btn-active-border-color: #13653f;
+  --bs-btn-active-bg: #ffc107;
+  --bs-btn-active-border-color: #ffc107;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #198754;
-  --bs-btn-disabled-border-color: #198754;
+  --bs-btn-disabled-bg: #ffc107;
+  --bs-btn-disabled-border-color: #ffc107;
 }
 
 .btn-info {
@@ -17475,7 +17485,28 @@ body:not(.is-expanded-menu):not(.primary-menu-open) .semi-transparent.transparen
   display: flex;
 }
 .logo-default {
-  max-height: 140px;;
+  max-height: 140px;
+}
+
+@media (max-width: 425px) {
+  .logo-default {
+    max-height: 10px !important;
+    margin:1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo-default {
+    max-height: 30px !important;
+    margin:1rem;
+  }
+}
+
+@media (max-width: 876px) {
+  .logo-default {
+    max-height: 30px !important;
+    /* padding:2rem; */
+  }
 }
 
 #logo img {
@@ -20804,7 +20835,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 
 .content-wrap {
   position: relative;
-  padding: var(--cnvs-content-padding) 0;
+  /* padding: var(--cnvs-content-padding) 0; */
   overflow: hidden;
 }
 .content-wrap .container {
