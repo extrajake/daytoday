@@ -17491,14 +17491,10 @@ body:not(.is-expanded-menu):not(.primary-menu-open) .semi-transparent.transparen
   display: none;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 576px) {
   .logo-default {
-    max-height: 10px !important;
+    max-height: 30px !important;
     margin:1rem;
-    display: none;
-  }
-  .logo-dark {
-    display: block;
   }
 }
 
@@ -17509,12 +17505,6 @@ body:not(.is-expanded-menu):not(.primary-menu-open) .semi-transparent.transparen
   }
 }
 
-@media (max-width: 576px) {
-  .logo-default {
-    max-height: 30px !important;
-    margin:1rem;
-  }
-}
 
 @media (max-width: 425px) {
   .logo-default {
