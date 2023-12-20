@@ -17485,7 +17485,7 @@ body:not(.is-expanded-menu):not(.primary-menu-open) .semi-transparent.transparen
   display: flex;
 }
 .logo-default {
-  max-height: 140px;
+  max-height: 40px !important;
 }
 
 @media (max-width: 425px) {
