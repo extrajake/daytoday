@@ -17487,11 +17487,25 @@ body:not(.is-expanded-menu):not(.primary-menu-open) .semi-transparent.transparen
 .logo-default {
   max-height: 40px !important;
 }
+.logo-dark {
+  display: none;
+}
 
 @media (max-width: 425px) {
   .logo-default {
     max-height: 10px !important;
     margin:1rem;
+    display: none;
+  }
+  .logo-dark {
+    display: block;
+  }
+}
+
+@media (max-width: 876px) {
+  .logo-default {
+    max-height: 30px !important;
+    /* padding:2rem; */
   }
 }
 
@@ -17502,10 +17516,14 @@ body:not(.is-expanded-menu):not(.primary-menu-open) .semi-transparent.transparen
   }
 }
 
-@media (max-width: 876px) {
+@media (max-width: 425px) {
   .logo-default {
-    max-height: 30px !important;
-    /* padding:2rem; */
+    max-height: 10px !important;
+    margin:1rem;
+    display: none;
+  }
+  .logo-dark {
+    display: block;
   }
 }
 
