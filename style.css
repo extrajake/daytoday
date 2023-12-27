@@ -17496,6 +17496,9 @@ body:not(.is-expanded-menu):not(.primary-menu-open) .semi-transparent.transparen
     max-height: 30px !important;
     margin:1rem;
   }
+  .parallax-bg {
+    display: none;
+  }
 }
 
 @media (max-width: 876px) {
