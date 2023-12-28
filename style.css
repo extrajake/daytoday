@@ -9233,6 +9233,7 @@ textarea.form-control-lg {
 
 .rounded-circle {
   border-radius: 50% !important;
+  max-height: 72px;
 }
 
 .rounded-pill {
