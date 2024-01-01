@@ -17733,7 +17733,7 @@ body:not(.top-search-open) .top-search-parent .primary-menu-trigger {
   color: var(--cnvs-primary-menu-active-color);
 }
 .menu-item .sub-menu-trigger {
-  display: block;
+  display: none;
   position: absolute;
   cursor: pointer;
   outline: none;
@@ -18467,7 +18467,7 @@ body:not(.is-expanded-menu) .mobile-menu-overlay .menu-container {
   display: none;
 }
 .is-expanded-menu.side-header .on-click .menu-item .sub-menu-trigger {
-  display: block;
+  display: none;
   top: 0;
   right: -5px;
   font-size: 10px;
@@ -18769,7 +18769,7 @@ body:not(.is-expanded-menu) .mobile-menu-overlay .menu-container {
   background: transparent;
 }
 .is-expanded-menu.overlay-menu .sub-menu-trigger {
-  display: block;
+  display: none;
   top: 5px;
 }
 .is-expanded-menu.overlay-menu .sub-menu-container .sub-menu-trigger {
