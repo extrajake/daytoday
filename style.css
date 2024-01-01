@@ -29910,6 +29910,9 @@ label.error {
   border-radius: 4px;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
 }
+.formFooter {
+  display:none !important;
+}
 
 /* ----------------------------------------------------------------
 	Preloaders
