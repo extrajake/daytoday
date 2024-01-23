@@ -213,9 +213,15 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  /* background-color: var(--bs-body-bg); */
+  background-image: url('images/paper-texture.jpg');
+  background-size: cover;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.paper {
+  background-image: url('images/paper-texture.jpg') !important;
+  background-size: cover !important;
 }
 
 hr {
@@ -4429,7 +4435,7 @@ textarea.form-control-lg {
   height: var(--bs-card-height);
   color: var(--bs-body-color);
   word-wrap: break-word;
-  background-color: var(--bs-card-bg);
+  background-color: transparent;
   background-clip: border-box;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
@@ -6509,9 +6515,13 @@ textarea.form-control-lg {
     transition: var(--bs-offcanvas-transition);
   }
 }
+
 @media (max-width: 991.98px) and (prefers-reduced-motion: reduce) {
   .offcanvas-lg {
     transition: none;
+  }
+  .nav-mobile {
+    display: flex;
   }
 }
 @media (max-width: 991.98px) {
@@ -17405,6 +17415,11 @@ body:not(.is-expanded-menu) #header:not([data-mobile-sticky=true]) .header-wrap-
 .is-expanded-menu .sticky-header.full-header #header-wrap {
   border-bottom: 1px solid var(--cnvs-header-border-color);
 }
+.fa-solid {
+  display: flex;
+  margin-left: auto;
+}
+
 .is-expanded-menu .sticky-header-shrink .style-3 .menu-container > .menu-item > .menu-link {
   --cnvs-primary-menu-padding-y: 19px;
   margin: 0;
@@ -17666,6 +17681,10 @@ body:not(.top-search-open) .top-search-parent .primary-menu-trigger {
   display: block;
   position: relative;
 }
+
+
+
+
 .cnvs-hamburger .cnvs-hamburger-inner {
   display: block;
   top: 50%;
@@ -20842,7 +20861,13 @@ body:not(.has-plugin-html5video) .video-wrap video {
 -----------------------------------------------------------------*/
 #content {
   position: relative;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-image: url('images/paper-texture.jpg');
+  background-size: contain;
+}
+.paper {
+  background-image: url('images/paper-texture.jpg');
+  background-size: contain;
 }
 
 .content-wrap {
@@ -33523,4 +33548,36 @@ body.dark {
   color: rgba(255, 255, 255, 0.4);
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+.nav-mobile {
+  display: none;
+}
+
+
+@media screen and (max-width: 900px) {
+  .nav-mobile {
+    display: block;
+  }
+}
+
+.fa-solid {
+  display: flex;
+  margin-left: auto;
+}
+
+/************************Custom CSS******************************/
+
+.girl {
+  margin-top: -16rem !important;
+	transform: scalex(-1) !important;
+	margin-left:60% !important;
+}
+@media screen and (max-width: 768px) {
+  .girl{
+    margin-top: -16rem;
+    transform: scalex(-1);
+
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
