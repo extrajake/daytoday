@@ -18796,8 +18796,8 @@ body:not(.is-expanded-menu) .mobile-menu-overlay .menu-container {
   padding: 5px 0;
 }
 .is-expanded-menu.overlay-menu .sub-menu-container .menu-link i.sub-menu-indicator {
-  position: relative;
-  /*display: inline-block;*/
+  /* position: relative; */
+  display: inline-block;
   display: none;
   top: -1px;
   left: 0;
